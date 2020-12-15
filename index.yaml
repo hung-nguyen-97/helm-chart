@@ -13,7 +13,7 @@ entries:
     - angular-chart-0.1.0.tgz
     version: 0.1.0
   nest-chart:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2020-12-15T08:57:39.6177717+07:00"
     description: A Helm chart for Kubernetes
