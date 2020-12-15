@@ -3,24 +3,24 @@ entries:
   angular-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-15T08:57:39.6167384+07:00"
+    created: "2020-12-15T13:57:20.3472927+07:00"
     description: A Helm chart for Kubernetes
     digest: 52c12c5f8727607d338fdde90e72db822f0a776b0b65eba8d7c22bc85ff78f92
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png
     name: angular-chart
     type: application
     urls:
-    - angular-chart-0.1.0.tgz
+    - https://hung-nguyen-3s.github.io/helm-chart/angular-chart-0.1.0.tgz
     version: 0.1.0
   nest-chart:
-  - apiVersion: v2
+  - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-12-15T08:57:39.6177717+07:00"
+    created: "2020-12-15T13:57:20.3482964+07:00"
     description: A Helm chart for Kubernetes
-    digest: 03c976cc3a61f9b1d250749854bed621b3675fe5c0cfbc3a92c17147acb5ea7a
+    digest: 3436235bfd7576ba337b24b79a193ad1a07370893b4dff7e5aa2447f56c9aa4a
     name: nest-chart
     type: application
     urls:
-    - nest-chart-0.1.0.tgz
+    - https://hung-nguyen-3s.github.io/helm-chart/nest-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-15T08:57:39.6097668+07:00"
+generated: "2020-12-15T13:57:20.3463269+07:00"
