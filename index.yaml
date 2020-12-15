@@ -10,7 +10,7 @@ entries:
     name: angular-chart
     type: application
     urls:
-    - https://hung-nguyen-3s.github.io/helm-chart/angular-chart-0.1.0.tgz
+    - angular-chart-0.1.0.tgz
     version: 0.1.0
   nest-chart:
   - apiVersion: v2
@@ -21,6 +21,6 @@ entries:
     name: nest-chart
     type: application
     urls:
-    - https://hung-nguyen-3s.github.io/helm-chart/nest-chart-0.1.0.tgz
+    - nest-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2020-12-15T08:57:39.6097668+07:00"
