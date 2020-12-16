@@ -1,19 +1,18 @@
-# Default values for nest-chart.
+# Default values for item-service-chart.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 3
+replicaCount: 1
 
 image:
-  repository: registry.learn2devops.xyz:443/hung.nv/nestjs
+  repository: masangroup/crownx-items
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "dev"
+  tag: "staging"
 
-imagePullSecrets: 
-  - name: registry-learn2-devops
+imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: ""
+fullnameOverride: "item-service"
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -38,8 +37,8 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: NodePort
-  port: 3000
+  type: ClusterIP
+  port: 30032
 
 ingress:
   enabled: false
@@ -78,12 +77,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
-secrets: 
-  registry: 
-    - create: true
-      name: "1"
-      dockerconfigjson: ewoJImF1dGhzIjogewoJCSJyZWdpc3RyeS5sZWFybjJkZXZvcHMueHl6OjQ0MyI6IHsKCQkJImF1dGgiOiAiYUhWdVp5NXVkanBvZFc1bk1UazVOdz09IgoJCX0KCX0KfQ==
-    - create: true
-      name: "2"
-      dockerconfigjson: ewoJImF1dGhzIjogewoJCSJyZWdpc3RyeS5sZWFybjJkZXZvcHMueHl6OjQ0MyI6IHsKCQkJImF1dGgiOiAiYUhWdVp5NXVkanBvZFc1bk1UazVOdz09IgoJCX0KCX0KfQ==
