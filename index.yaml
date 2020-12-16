@@ -10,7 +10,7 @@ entries:
     name: angular-chart
     type: application
     urls:
-    - https://hung-nguyen-3s.github.io/helm-chart/angular-chart-0.1.0.tgz
+    - https://hung-nguyen-97.github.io/helm-chart/angular-chart-0.1.0.tgz
     version: 0.1.0
   item-service-chart:
   - apiVersion: v2
@@ -22,7 +22,7 @@ entries:
     name: item-service-chart
     type: application
     urls:
-    - https://hung-nguyen-3s.github.io/helm-chart/item-service-chart-0.1.0.tgz
+    - https://hung-nguyen-97.github.io/helm-chart/item-service-chart-0.1.0.tgz
     version: 0.1.0
   nest-chart:
   - apiVersion: v1
@@ -33,6 +33,6 @@ entries:
     name: nest-chart
     type: application
     urls:
-    - https://hung-nguyen-3s.github.io/helm-chart/nest-chart-0.1.0.tgz
+    - https://hung-nguyen-97.github.io/helm-chart/nest-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2020-12-16T14:55:36.7201483+07:00"
