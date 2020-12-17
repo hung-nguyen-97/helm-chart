@@ -3,7 +3,7 @@ entries:
   angular-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-16T16:11:57.25657+07:00"
+    created: "2020-12-17T09:29:51.7263527+07:00"
     description: A Helm chart for Kubernetes
     digest: 52c12c5f8727607d338fdde90e72db822f0a776b0b65eba8d7c22bc85ff78f92
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png
@@ -15,9 +15,20 @@ entries:
   item-service-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-16T16:11:57.2574304+07:00"
+    created: "2020-12-17T09:29:51.7293522+07:00"
     description: A Helm chart for Kubernetes
-    digest: 9dd64c40eaed71190576c0f95890c4b01bbf04d158087cf476b5964b87e6d03e
+    digest: 082508fb1817eb82451d13a34e92f283bff10001c7944b918f2e3c1a17cd049b
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/512px-.NET_Core_Logo.svg.png
+    name: item-service-chart
+    type: application
+    urls:
+    - https://hung-nguyen-97.github.io/helm-chart/item-service-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-17T09:29:51.7284635+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 76337817d05c5fafb9e195e17fd171f94ae2c8580db254ac1e117a86c46237b9
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/512px-.NET_Core_Logo.svg.png
     name: item-service-chart
     type: application
@@ -27,7 +38,7 @@ entries:
   nest-chart:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-12-16T16:11:57.2574304+07:00"
+    created: "2020-12-17T09:29:51.7363053+07:00"
     description: A Helm chart for Kubernetes
     digest: 3436235bfd7576ba337b24b79a193ad1a07370893b4dff7e5aa2447f56c9aa4a
     name: nest-chart
@@ -35,4 +46,4 @@ entries:
     urls:
     - https://hung-nguyen-97.github.io/helm-chart/nest-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-16T16:11:57.2544637+07:00"
+generated: "2020-12-17T09:29:51.7203435+07:00"
